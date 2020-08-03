@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return;
+  // Fragment or Div -> new shorter syntaz for declaring fragments. In React all components must be enclosed in a parent tag, and multiple elements cannot be returned.
+  <>
+    <div className="app">
+      <Sidebar />
+      /* Home */ 
+      /* Search */ 
+      /* Your Libary */
+      <Navbar />
     </div>
-  );
+    ;
+  </>;
 }
 
 export default App;
