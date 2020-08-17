@@ -10,9 +10,12 @@ export const initialState = {
 
 const reducer = (state, action) => {
   console.log(action);
+
+  //Action -> type "set user", payload "user"
   switch (action.type) {
     case "SET_USER":
       return {
+        //keep what was in current state, but update with the action to set new state
         ...state,
         user: action.user,
       };
@@ -58,6 +61,7 @@ const reducer = (state, action) => {
         ...state,
         playlists: action.playlists,
       };
+    // Default if there is no action
     default:
       return state;
   }
