@@ -8,10 +8,11 @@
 }
 
 .sidebar > hr {
-	border: 1px solide #282828;
-	width: 90%;
+	border: 1px solid #282828;
+	width: 95%;
 	margin: 10px auto;
 }
+
 .sidebarOption:hover {
 	color: white;
 }
@@ -19,4 +20,10 @@
 .sidebarOption__icon {
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+.sidebarOption > p {
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size: 14px;
 }
