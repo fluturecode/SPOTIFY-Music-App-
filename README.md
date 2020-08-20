@@ -1,6 +1,8 @@
+https://user-images.githubusercontent.com/59614789/90785936-f46bc580-e2d0-11ea-9bff-d94f4356f729.png
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Music Player App
 
 In the project directory, you can run:
 
