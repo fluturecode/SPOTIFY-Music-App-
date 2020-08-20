@@ -1,8 +1,6 @@
-![Screen Shot 2020-08-20 at 10 34 28 AM](https://user-images.githubusercontent.com/59614789/90785936-f46bc580-e2d0-11ea-9bff-d94f4356f729.png)
+## Spotify Music Player - with User Authentication
+![Screen Shot 2020-08-20 at 6 53 43 PM](https://user-images.githubusercontent.com/59614789/90834339-10468a00-e318-11ea-9672-86b8ba266aa5.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Music Player App
 
 In the project directory, you can run:
 
