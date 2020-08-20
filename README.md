@@ -1,4 +1,4 @@
-## Spotify Music Player - with User Authentication
+## Spotify (clone) App Player - with User Authentication
 ![Screen Shot 2020-08-20 at 6 53 43 PM](https://user-images.githubusercontent.com/59614789/90834339-10468a00-e318-11ea-9672-86b8ba266aa5.png)
 
 
