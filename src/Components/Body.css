@@ -21,6 +21,7 @@
 
 .body__infoText {
 	flex: 1;
+	font-size: 28px;
 }
 
 .body__infoText > h2 {

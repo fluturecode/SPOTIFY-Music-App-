@@ -6,9 +6,6 @@ export const initialState = {
 	spotify: null,
 	discover_weekly: null,
 	top_artists: null,
-	//Remove after finish developing
-	// token:
-	// // "BQAZ66TrRf-000r-2ZvK7xqlORYLAxvwT5MPzpO9IeOVidt1G5…fBO5KRWy_kUkUUthSbhGRMQmqKxSk7QNaC9LEzdiiE3-mn4cr",
 };
 
 const reducer = (state, action) => {
