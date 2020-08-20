@@ -8,7 +8,6 @@ import { useStateValue } from "../stateProvider";
 
 function Sidebar() {
 	const [{ playlists }, dispatch] = useStateValue();
-	console.log(playlists);
 
 	return (
 		<div className="sidebar">
@@ -21,7 +20,7 @@ function Sidebar() {
 			<SidebarOption Icon={SearchIcon} option="Search" />
 			<SidebarOption Icon={LibraryMusicIcon} option="Your Library" />
 			<br />
-			<strong className="sidebar__title">PLAYLISTS</strong>
+			<strong className="sidebar__option">PLAYLISTS</strong>
 			<hr />
 			{playlists?.items?.map((playlist) => (
 				<SidebarOption option={playlist.name} />
