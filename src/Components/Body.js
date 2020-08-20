@@ -51,13 +51,16 @@ function Body({ spotify }) {
 	return (
 		<div className="body">
 			<Header spotify={spotify} />
-
 			<div className="body__info">
+				{/* Album placeholder */}
 				<img src={require("./FMacRumours.png")} />
+				{/* Connect to Spotify weekly images */}
+				{/* <img src={discover_weekly?.images[0].url} alt="" /> */}
 				<div className="body__infoText">
 					<strong>PLAYLIST</strong>
 					<h2>Discover Weekly</h2>
-					<p>{discover_weekly?.description}</p>
+					{/* <p>{discover_weekly?.description}</p> */}
+					<p>Disocver your weekly playlist...</p>
 				</div>
 			</div>
 
