@@ -6,6 +6,7 @@ export const initialState = {
 	spotify: null,
 	discover_weekly: null,
 	top_artists: null,
+	token: null,
 };
 
 const reducer = (state, action) => {
