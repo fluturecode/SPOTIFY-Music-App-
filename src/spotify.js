@@ -1,8 +1,8 @@
-// https://developer.spotify.com/documentation/web-playback-sdk/quick-start/#
+require("dotenv").config();
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 // Replace with your app's client ID, redirect URI and desired scopes
-const clientId = "cff76213089a4e228206c8bf120d67cb";
-const redirectUri = "http://localhost:3000/";
+const clientId = "08afe323576f41689284d24bf4c42363";
+const redirectUri = "https://spotify-2b18e.web.app/";
 const scopes = [
 	"user-read-currently-playing",
 	"user-read-recently-played",
@@ -24,6 +24,8 @@ export const getTokenFromUrl = () => {
 		}, {});
 };
 
-export const loginUrl = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
+export const loginUrl = `${authEndpoint}?client_id=${clientId}&client_secret=${
+	process.env.CLIENT_SECRET
+}&redirect_uri=${redirectUri}&scope=${scopes.join(
 	"%20"
 )}&response_type=token&show_dialog=true`;

@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "spotify-clone-6c012"
+    "default": "spotify-clone-6c012",
+    "Spotify": "spotify-2b18e"
   }
 }
