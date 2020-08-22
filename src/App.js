@@ -10,7 +10,7 @@ import SpotifyWebApi from "spotify-web-api-js";
 const spotify = new SpotifyWebApi();
 
 function App() {
-	const [{ user, token }, dispatch] = useStateValue();
+	const [{ token }, dispatch] = useStateValue();
 
 	useEffect(() => {
 		// Set token
@@ -50,7 +50,8 @@ function App() {
 
 	return (
 		<div className="app">
-			{token ? <Player spotify={spotify} /> : <Login />}
+			{!token && <Login />}
+			{token && <Player spotify={spotify} />}
 		</div>
 	);
 }

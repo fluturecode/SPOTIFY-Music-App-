@@ -35,10 +35,12 @@
 
 .footer__songInfo > h4 {
 	margin-bottom: 5px;
+	font-size: 12px;
+	object-fit: contain;
 }
 
 .footer__songInfo > p {
-	font-size: 12px;
+	font-size: 11px;
 }
 .footer__center {
 	flex: 0.4;
