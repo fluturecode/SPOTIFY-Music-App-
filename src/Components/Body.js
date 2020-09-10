@@ -1,7 +1,7 @@
 import React from "react";
 import "./Body.css";
 import Header from "./Header";
-import { useStateValue } from "../stateProvider";
+import { useStateValue } from "../context/stateProvider";
 import SongRow from "./SongRow";
 import PlayCircleFilledIcon from "@material-ui/icons/PlayCircleFilled";
 import FavoriteIcon from "@material-ui/icons/Favorite";

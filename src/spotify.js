@@ -1,7 +1,7 @@
 require("dotenv").config();
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 // Replace with your app's client ID, redirect URI and desired scopes
-const clientId = "08afe323576f41689284d24bf4c42363";
+const clientId = "1c2e4816554943c8b9f969a6fb98df18";
 const redirectUri = "https://spotify-2b18e.web.app/";
 const scopes = [
 	"user-read-currently-playing",

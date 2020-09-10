@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useStateValue } from "./stateProvider";
+import { useStateValue } from "./context/stateProvider";
 import Player from "./Components/Player";
 import { getTokenFromUrl } from "./spotify";
 import "./App.css";
