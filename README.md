@@ -1,5 +1,6 @@
 ## Spotify (clone) App Player - with User Authentication
-![Screen Shot 2020-08-20 at 6 53 43 PM](https://user-images.githubusercontent.com/59614789/90834339-10468a00-e318-11ea-9672-86b8ba266aa5.png)
+![Screen Shot 2020-09-10 at 12 21 29 PM](https://user-images.githubusercontent.com/59614789/92762056-3cc25480-f360-11ea-8694-012cf685bb96.png)
+
 
 
 In the project directory, you can run:
