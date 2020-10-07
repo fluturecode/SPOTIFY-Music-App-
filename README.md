@@ -2,6 +2,9 @@
 ![Screen Shot 2020-09-10 at 12 21 29 PM](https://user-images.githubusercontent.com/59614789/92762056-3cc25480-f360-11ea-8694-012cf685bb96.png)
 
 
+### Spotify API
+
+Yarn add "spotify-web-abi-js"
 
 In the project directory, you can run:
 
