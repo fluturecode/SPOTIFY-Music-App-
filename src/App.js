@@ -46,10 +46,10 @@ function App() {
 				});
 			});
 		}
-	}, []);
+	}, [dispatch]);
 
 	return (
-		<div className="app">
+		<div className='app'>
 			{!token && <Login />}
 			{token && <Player spotify={spotify} />}
 		</div>
