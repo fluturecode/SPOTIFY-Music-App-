@@ -1,6 +1,9 @@
 ## Spotify (clone) App Player - with User Authentication
 ![Screen Shot 2020-09-10 at 12 21 29 PM](https://user-images.githubusercontent.com/59614789/92762056-3cc25480-f360-11ea-8694-012cf685bb96.png)
 
+### Spotify API
+
+You will need a Premium Spotify account in order for the player to work and connect to your spotify.
 
 ### Spotify API
 
