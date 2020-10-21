@@ -1,3 +1,5 @@
+// A Premium Spotify account is required to allow playing of tracks.
+
 require("dotenv").config();
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 // Replace with your app's client ID, redirect URI and desired scopes

@@ -19,24 +19,11 @@ function App() {
 		const _token = hash.access_token;
 
 		if (_token) {
+			spotify.setAccessToken(_token);
+
 			dispatch({
 				type: "SET_TOKEN",
 				token: _token,
-			});
-
-			spotify.setAccessToken(_token);
-			spotify.getMe().then((user) => {
-				dispatch({
-					type: "SET_USER",
-					user,
-				});
-			});
-
-			spotify.getUserPlaylists().then((playlists) => {
-				dispatch({
-					type: "SET_PLAYLISTS",
-					playlists: playlists,
-				});
 			});
 
 			spotify.getPlaylist("37i9dQZEVXcH9e7onmechP").then((response) => {
@@ -44,9 +31,35 @@ function App() {
 					type: "SET_DISCOVER_WEEKLY",
 					discover_weekly: response,
 				});
+
+				spotify.getMyTopArtists().then((response) =>
+					dispatch({
+						type: "SET_TOP_ARTISTS",
+						top_artists: response,
+					})
+				);
+
+				dispatch({
+					type: "SET_SPOTIFY",
+					spotify,
+				});
+
+				spotify.getMe().then((user) => {
+					dispatch({
+						type: "SET_USER",
+						user,
+					});
+				});
+
+				spotify.getUserPlaylists().then((playlists) => {
+					dispatch({
+						type: "SET_PLAYLISTS",
+						playlists,
+					});
+				});
 			});
 		}
-	}, [dispatch]);
+	}, [token, dispatch]);
 
 	return (
 		<div className='app'>
